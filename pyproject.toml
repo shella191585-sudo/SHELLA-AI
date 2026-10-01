@@ -1,0 +1,8 @@
+[project]
+name = "market-intelligence"
+version = "0.1.0"
+description = "Reproducible market-state and risk research for BTC, gold, and U.S. stocks"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
